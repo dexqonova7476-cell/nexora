@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>NEXORA — Secure Access</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+
+    <div class="login-background">
+
+        <div class="cyber-grid"></div>
+
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+        <div class="particle particle-5"></div>
+        <div class="particle particle-6"></div>
+
+    </div>
+
+
+    <!-- NAV -->
+
+    <header class="login-header">
+
+        <a href="index.html" class="login-logo">
+            NEXORA
+        </a>
+
+        <div class="system-status">
+
+            <span class="status-dot"></span>
+
+            SYSTEM ONLINE
+
+        </div>
+
+    </header>
+
+
+    <!-- LOGIN -->
+
+    <main class="login-container">
+
+        <div class="login-card">
+
+            <div class="terminal-top">
+
+                <div class="terminal-dots">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <div class="terminal-title">
+                    NEXORA://ACCESS
+                </div>
+
+            </div>
+
+
+            <div class="login-content">
+
+                <div class="login-icon">
+                    &gt;_
+                </div>
+
+                <div class="login-label">
+                    SECURE ACCESS
+                </div>
+
+                <h1>
+                    Welcome<br>
+                    <span>back.</span>
+                </h1>
+
+                <p class="login-description">
+                    Enter your credentials to access the NEXORA system.
+                </p>
+
+
+                <form id="loginForm">
+
+                    <div class="input-group">
+
+                        <label for="email">
+                            USER IDENTIFIER
+                        </label>
+
+                        <div class="input-wrapper">
+
+                            <span class="input-symbol">
+                                @
+                            </span>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="user@nexora.io"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="password">
+                            ACCESS KEY
+                        </label>
+
+                        <div class="input-wrapper">
+
+                            <span class="input-symbol">
+                                #
+                            </span>
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="••••••••••••"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                id="showPassword"
+                                class="show-password"
+                            >
+                                SHOW
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="login-options">
+
+                        <label class="remember">
+
+                            <input
+                                type="checkbox"
+                                id="remember"
+                            >
+
+                            <span class="checkmark"></span>
+
+                            Remember session
+
+                        </label>
+
+                        <a href="#" class="forgot">
+                            Forgot access?
+                        </a>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="login-button"
+                    >
+
+                        <span>
+                            INITIALIZE ACCESS
+                        </span>
+
+                        <strong>
+                            →
+                        </strong>
+
+                    </button>
+
+                </form>
+
+
+                <div
+                    class="login-message"
+                    id="loginMessage"
+                ></div>
+                <div class="return-home" id="returnHome">
+
+    <a href="index.html">
+        ← RETURN TO HOME
+    </a>
+
+</div>
+
+                <div class="create-account">
+
+                    <span>
+                        NEW TO NEXORA?
+                    </span>
+
+                    <a href="#">
+                        CREATE ACCOUNT
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="terminal-bottom">
+
+                <span>
+                    ENCRYPTED CONNECTION
+                </span>
+
+                <span>
+                    AES-256
+                </span>
+
+                <span>
+                    ● SECURE
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="back-home">
+
+            <a href="index.html">
+                ← RETURN TO NEXORA
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <div class="scanline"></div>
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
